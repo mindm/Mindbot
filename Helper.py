@@ -301,7 +301,7 @@ def randomizer(str1):
 
         
 def weather(msg):
-"""API does not work anymore"""
+    """API does not work anymore"""
     pattern = '\<city data\=\"(?P<kaupunki>.+?)\".+\<condition data\=\"(?P<tila>.+?)\".+\<temp_c data\=\"(?P<aste>.+?)\"'
     url = 'http://www.google.com/ig/api?weather=' + msg
     webpage = urllib2.urlopen(url)
